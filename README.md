@@ -2,7 +2,7 @@
 Dynamic time warping (DTW) is one of the algorithms for measuring similarity between two temporal sequences, which may vary in speed. The technique has relied on time series analysis and visual, audial data recognition systems. The advantage of using DTW is that reliable time alignment between reference and test patterns is obtained. The disadvantage of using DTW is the heavy computational burden required to find the optimal time alignment path.
 
 ### Pre-requisites
-Install the fastdtw PyPi library, Python v2.7.
+Install the fastdtw PyPi library, Python v2.7, packages: scipy.io, matplotlib, numpy
 
 ### Hypothesis
 Dynamic time warping recognise synchronous patterns on the two audio streams- escobilla (footwork) and flamenco patterns of music (palos). In this project we will be comparing various audio recordings (in WAV files) based on the flamenco patterns, e.g. 30seconds of the Carmen Amaya dance Bulerias performance and three flamenco cantaores: Estrella Morente, Marina Heredia and Gema Jimenez. There are four audio clips where two of them are based on the Bulerias and one of Seguiriyas musical forms.
@@ -40,7 +40,7 @@ siguiriyas pattern has two short, two long, and one short (counted as: 1 and 2 a
 ![Screenshot](plot.png)
 
 ### References:
-https://youtu.be/EwVODokMJYo
+
 [![Carmen Amaya, Bulerías. Guitarra Sabicas](http://img.youtube.com/vi/1h-GEgzfxQg/0.jpg)](http://www.youtube.com/watch?v=1h-GEgzfxQg "Carmen Amaya, Bulerías. Guitarra Sabicas")
 
 [![Estrella Morente - Que llegue el domingo (Buleria)](http://img.youtube.com/vi/ZkiAsHbVNG8/0.jpg)](http://www.youtube.com/watch?v=ZkiAsHbVNG8 "Estrella Morente - Que llegue el domingo (Buleria)")

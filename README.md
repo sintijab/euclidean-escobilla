@@ -8,6 +8,7 @@ Install the fastdtw PyPi library, Python v2.7, packages: scipy.io, matplotlib, n
 Dynamic time warping recognise synchronous patterns on the two audio streams- escobilla (footwork) and flamenco patterns of music (palos). In this project we will be comparing various audio recordings (in WAV files) based on the flamenco patterns, e.g. 30seconds of the Carmen Amaya dance Bulerias performance and three flamenco cantaores: Estrella Morente, Marina Heredia and Gema Jimenez. There are four audio clips where two of them are based on the Bulerias and one of Seguiriyas musical forms.
 
 ### Results
+Distance: 
 Estrella Morente Bulerias (15s): 1426938197.0
 Marina Heredia Bulerias (15s): 2285134067.0
 Gema Jimenez Seguirilla (15s): 2045553908.0
